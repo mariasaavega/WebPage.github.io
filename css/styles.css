@@ -8,6 +8,11 @@
     height: 80%;
     position: relative;
     display: inline-block; }
+  @media only screen and (max-width: 550px) {
+    .mainDiv div {
+      width: 100%;
+      height: 80%;
+      position: relative; } }
 
 .form {
   background-color: #e9d5e9;
@@ -28,7 +33,7 @@
 
 h2 {
   margin-top: 2rem;
-  color: red;
+  color: #9f54c2;
   letter-spacing: 1px; }
 
 input {
