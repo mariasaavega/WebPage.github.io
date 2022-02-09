@@ -23,7 +23,8 @@
   border-radius: 10px 0px 0px 10px; }
   @media only screen and (max-width: 550px) {
     .registerImage {
-      display: none; } }
+      display: none;
+      visibility: hidden; } }
 
 h2 {
   margin-top: 2rem;
