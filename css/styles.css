@@ -21,10 +21,13 @@
   box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
   float: left;
   border-radius: 10px 0px 0px 10px; }
+  @media only screen and (max-width: 550px) {
+    .registerImage {
+      display: none; } }
 
 h2 {
   margin-top: 2rem;
-  color: red;
+  color: #9f54c2;
   letter-spacing: 1px; }
 
 input {
