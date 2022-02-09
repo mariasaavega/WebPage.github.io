@@ -1,23 +1,0 @@
-3.7.4
-eccb20a1898ec1a667d7fa157ef369885b8f5830
-o:Sass::Tree::RootNode:@children[o:Sass::Tree::RuleNode:
-@rule[I"h2:ET:@parsed_ruleso:"Sass::Selector::CommaSequence:
-@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence;[o:Sass::Selector::Element	:
-@nameI"h2;	T:@namespace0:
-@linei:@filename0:
-@subject0:
-@sourceso:Set:
-@hash}�F:@source_rangeo:Sass::Source::Range	:@start_poso:Sass::Source::Position;i:@offseti:
-@end_poso;;i;i:
-@file0:@importer0;i;0;i;i;0:@selector_source_rangeo;	;o;;i;i;o;;i;i	;I""sass/RegisterPage/_title.scss;	T;o: Sass::Importers::Filesystem:
-@rootI"-C:/Users/mariana.saavedra/WebDevelopment;	T:@real_rootI"-C:/Users/mariana.saavedra/WebDevelopment;	T:@same_name_warningso;;}�F:
-@tabsi�;[o:Sass::Tree::PropNode;[I"margin-top;	T:@value[o: Sass::Script::Tree::Literal;'o: Sass::Script::Value::String	;'I"	2rem;	T:
-@options{�:
-@type:identifier:"@deprecated_interp_equivalent0;i;o;	;o;;i;i;o;;i;i;@;@;%i�:@prop_syntax:new;[�;0;*@(;i;o;	;o;;i;i;o;;i;i;@;@:@name_source_rangeo;	;@.;o;;i;i;@;@:@value_source_rangeo;	;o;;i;i;@/;@;@o;&;[I"
-color;	T;'[o:!Sass::Script::Tree::Variable;I"titlesColorPurple;	T:@underscored_nameI"titlesColorPurple;	T;i;o;	;o;;i;i;o;;i;i!;@;@;@;*@(;%i�;.;/;[�;0;*@(;i;o;	;o;;i;i;o;;i;i!;@;@;0o;	;@@;o;;i;i
-;@;@;1o;	;o;;i;i;@A;@;@o;&;[I"letter-spacing;	T;'[o;(;'o;)	;'I"1px;	T;*@(;+;,;-0;i	;o;	;o;;i	;i;o;;i	;i;@;@;%i�;.;/;[�;0;*@(;i	;o;	;o;;i	;i;o;;i	;i;@;@;0o;	;@R;o;;i	;i;@;@;1o;	;o;;i	;i;@S;@;@;0;*@(;i;o;	;@;o;;i;i	;@;@:@has_childrenT;0;*@(:@templateI"Th2 {
-  margin-top: 2rem;
-  color: red;
-  letter-spacing: 1px;
-}
-;	T;i;o;	;o;;i;i;o;;i;i;@;@;4T
