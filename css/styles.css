@@ -54,6 +54,9 @@ label {
 html {
   background: #f2e6f3;
   font-family: "Nunito", sans-serif; }
+  @media only screen and (max-width: 550px) {
+    html {
+      background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg"); } }
 
 html,
 body,
