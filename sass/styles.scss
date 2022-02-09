@@ -1,0 +1,20 @@
+@import "variables";
+@import "RegisterPage/mainDiv";
+@import "RegisterPage/form";
+@import "RegisterPage/image";
+@import "RegisterPage/title";
+@import "RegisterPage/input";
+@import "RegisterPage/label";
+html {
+  background: rgb(242, 230, 243);
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body,
+main {
+  margin: 0;
+  height: 90%;
+  min-height: 100%;
+  overflow: hidden;
+}
