@@ -1,3 +1,33 @@
+.form {
+  background-color: #e9d5e9;
+  box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 10px 10px 0px;
+  float: right; }
+  @media only screen and (max-width: 550px) {
+    .form {
+      margin-top: 5px;
+      border-radius: 10px 10px 10px 10px;
+      float: none; } }
+
+@media only screen and (max-width: 550px) {
+  #form {
+    width: 100%; } }
+.registerImage {
+  background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg");
+  background-size: cover;
+  box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
+  float: left;
+  border-radius: 10px 0px 0px 10px; }
+  @media only screen and (max-width: 550px) {
+    .registerImage {
+      width: 0%;
+      display: none;
+      visibility: hidden; } }
+
+@media only screen and (max-width: 550px) {
+  #registerImage {
+    width: 0%;
+    display: none; } }
 .mainDiv {
   width: 85%;
   margin: auto;
@@ -8,28 +38,6 @@
     height: 80%;
     position: relative;
     display: inline-block; }
-  @media only screen and (max-width: 550px) {
-    .mainDiv div {
-      width: 100%;
-      height: 80%;
-      position: relative; } }
-
-.form {
-  background-color: #e9d5e9;
-  box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 10px 10px 0px;
-  float: right; }
-
-.registerImage {
-  background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg");
-  background-size: cover;
-  box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
-  float: left;
-  border-radius: 10px 0px 0px 10px; }
-  @media only screen and (max-width: 550px) {
-    .registerImage {
-      display: none;
-      visibility: hidden; } }
 
 h2 {
   margin-top: 2rem;
@@ -41,7 +49,7 @@ input {
   border-bottom: 0.5px solid #aa1aec;
   background-color: #e9d5e900;
   height: 1.5rem;
-  width: 25rem;
+  width: 150%;
   margin-left: 5rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -59,6 +67,22 @@ label {
   @media only screen and (max-width: 800px) {
     label {
       margin-left: 2rem; } }
+
+.registerButton {
+  background-color: #a765f7b7;
+  border: none;
+  font-size: 15px;
+  padding: 0.3rem;
+  width: 40%;
+  height: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 6px 4px 14px 3px rgba(0, 0, 0, 0.4); }
+  .registerButton :hover {
+    background-color: #9f54c2; }
+
+.registerButton:hover {
+  background-color: #9f54c2; }
 
 html {
   background: #f2e6f3;

@@ -1,10 +1,12 @@
 @import "variables";
-@import "RegisterPage/mainDiv";
+
 @import "RegisterPage/form";
 @import "RegisterPage/image";
+@import "RegisterPage/mainDiv";
 @import "RegisterPage/title";
 @import "RegisterPage/input";
 @import "RegisterPage/label";
+@import "RegisterPage/button";
 html {
   background: rgb(242, 230, 243);
   font-family: "Nunito", sans-serif;
