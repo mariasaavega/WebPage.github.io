@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 3%;
+  background-color: $buttonColorPurple;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex: 1;
+  max-width: 50%;
+  justify-content: space-evenly;
+}
+
+a {
+  padding: 13px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  background-color: $titlesColorPurple;
+}
+
+.menu {
+  border-bottom: $titlesColorPurple 0.2em solid;
+}

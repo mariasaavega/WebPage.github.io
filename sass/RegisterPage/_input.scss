@@ -1,18 +1,111 @@
-input {
+.textInput {
+  position: relative;
   border: none;
   border-bottom: 0.5px solid $linesColorPurple;
   background-color: #e9d5e900;
   height: 1.5rem;
-  width: 150%;
-  margin-left: 5rem;
+  width: 100%;
+
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   outline: none;
-  @media only screen and (max-width: $tablet) {
-    margin-left: 2rem;
-    width: 150%;
+  padding-left: 1.5rem;
+  font-size: 15px;
+  @media only screen and (max-width: $phone) {
+  }
+  @media only screen and (max-width: $medium) {
+    width: 100%;
   }
 }
-input[type="password"] {
+.textInput[type="password"] {
   color: $linesColorPurple;
+}
+
+#termsNconditionLabel {
+  margin-left: 0rem;
+  font-size: 15px;
+}
+
+#termsContainer {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon {
+  color: #918d91;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0rem;
+  top: 40%;
+  transform: translateY(-50%);
+  @media only screen and (max-width: $tablet) {
+    left: 0rem;
+  }
+  :hover {
+    color: #a815a8;
+  }
+}
+
+.email-icon {
+  color: #918d91;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0rem;
+  top: 58%;
+  fill: #918d91;
+  transform: translateY(-50%);
+  @media only screen and (max-width: $tablet) {
+    left: 0rem;
+  }
+  :hover {
+    fill: #a815a8;
+  }
+}
+
+#password-icon {
+  color: #918d91;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0rem;
+  top: 25%;
+  margin-right: 2px;
+  fill: #918d91;
+  transform: translateY(-50%);
+  :hover {
+    color: #a815a8;
+  }
+  @media only screen and (max-width: $tablet) {
+    left: 0rem;
+  }
+  :hover {
+    color: #a815a8;
+  }
+}
+
+.input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: $phone) {
+    width: 80%;
+  }
+  @media only screen and (max-width: $medium) {
+    width: 75%;
+  }
+  @media only screen and (max-width: $tablet) {
+    width: 70%;
+  }
 }

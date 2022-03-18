@@ -1,0 +1,25 @@
+.mainDiv div .modal-container {
+  display: flex;
+  position: fixed;
+  background-color: rgba(104, 99, 91, 0.63);
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.show {
+  pointer-events: auto !important;
+  opacity: 1 !important;
+}
+
+#modal {
+  background-color: wheat;
+  width: 40%;
+  height: 60%;
+  border-radius: 10px;
+  padding: 30px 50px;
+}

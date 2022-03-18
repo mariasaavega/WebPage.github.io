@@ -1,70 +1,176 @@
 .form {
+  width: 60%;
   background-color: #e9d5e9;
   box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.2);
   border-radius: 0px 10px 10px 0px;
   float: right; }
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 600px) {
     .form {
       margin-top: 5px;
       border-radius: 10px 10px 10px 10px;
       float: none; } }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   #form {
     width: 100%; } }
+@media only screen and (min-width: 1100px) {
+  .form {
+    animation-duration: 1.3s;
+    animation-name: slideinF; } }
+
+@keyframes slideinF {
+  from {
+    margin-right: 90%;
+    width: 60%;
+    margin-top: -45.65%; }
+  to {
+    margin-left: 0%;
+    width: 60%;
+    margin-top: -45.65%; } }
 .registerImage {
+  width: 40%;
   background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg");
   background-size: cover;
   box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
   float: left;
   border-radius: 10px 0px 0px 10px; }
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 600px) {
     .registerImage {
       width: 0%;
       display: none;
       visibility: hidden; } }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   #registerImage {
     width: 0%;
     display: none; } }
+@media only screen and (min-width: 1100px) {
+  .registerImage {
+    animation-duration: 1.3s;
+    animation-name: slidein; } }
+
+@keyframes slidein {
+  from {
+    margin-left: 80%;
+    width: 40%; }
+  to {
+    margin-right: 0%;
+    width: 40%; } }
 .mainDiv {
   width: 85%;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
   height: 100%; }
   .mainDiv div {
-    width: 50%;
     height: 80%;
     position: relative;
     display: inline-block; }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: #9f54c2;
   letter-spacing: 1px; }
 
-input {
+.textInput {
+  position: relative;
   border: none;
   border-bottom: 0.5px solid #aa1aec;
   background-color: #e9d5e900;
   height: 1.5rem;
-  width: 150%;
-  margin-left: 5rem;
+  width: 100%;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  outline: none; }
-  @media only screen and (max-width: 800px) {
-    input {
-      margin-left: 2rem;
-      width: 150%; } }
+  outline: none;
+  padding-left: 1.5rem;
+  font-size: 15px; }
+  @media only screen and (max-width: 750px) {
+    .textInput {
+      width: 100%; } }
 
-input[type="password"] {
+.textInput[type="password"] {
   color: #aa1aec; }
+
+#termsNconditionLabel {
+  margin-left: 0rem;
+  font-size: 15px; }
+
+#termsContainer {
+  margin-top: 2rem;
+  width: 100%; }
+
+.input-wrapper {
+  position: relative;
+  width: 100%; }
+
+.input-icon {
+  color: #918d91;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0rem;
+  top: 40%;
+  transform: translateY(-50%); }
+  @media only screen and (max-width: 1100px) {
+    .input-icon {
+      left: 0rem; } }
+  .input-icon :hover {
+    color: #a815a8; }
+
+.email-icon {
+  color: #918d91;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0rem;
+  top: 58%;
+  fill: #918d91;
+  transform: translateY(-50%); }
+  @media only screen and (max-width: 1100px) {
+    .email-icon {
+      left: 0rem; } }
+  .email-icon :hover {
+    fill: #a815a8; }
+
+#password-icon {
+  color: #918d91;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0rem;
+  top: 25%;
+  margin-right: 2px;
+  fill: #918d91;
+  transform: translateY(-50%); }
+  #password-icon :hover {
+    color: #a815a8; }
+  @media only screen and (max-width: 1100px) {
+    #password-icon {
+      left: 0rem; } }
+  #password-icon :hover {
+    color: #a815a8; }
+
+.input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column; }
+
+#input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (max-width: 600px) {
+    #input-container {
+      width: 80%; } }
+  @media only screen and (max-width: 750px) {
+    #input-container {
+      width: 75%; } }
+  @media only screen and (max-width: 1100px) {
+    #input-container {
+      width: 70%; } }
 
 label {
   margin-left: 5rem; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1100px) {
     label {
       margin-left: 2rem; } }
 
@@ -77,19 +183,181 @@ label {
   height: 2rem;
   margin-top: 2rem;
   border-radius: 5px;
-  box-shadow: 6px 4px 14px 3px rgba(0, 0, 0, 0.4); }
+  box-shadow: 28px 18px 25px -9px rgba(0, 0, 0, 0.25);
+  color: wheat;
+  font-weight: 400; }
   .registerButton :hover {
     background-color: #9f54c2; }
+  @media only screen and (max-width: 600px) {
+    .registerButton {
+      border-radius: 20px;
+      width: 30%; } }
 
 .registerButton:hover {
+  background-color: #9f54c2;
+  transition: background-color 0.2s ease, padding 0.8s linear; }
+
+.button-open {
+  background-color: #e9d5e9;
+  border: none;
+  text-decoration: underline; }
+
+.button-close {
+  background-color: #a765f7b7;
+  border: none;
+  font-size: 15px;
+  padding: 0.3rem;
+  width: 40%;
+  height: 2rem;
+  margin-top: 6rem;
+  border-radius: 5px;
+  box-shadow: 28px 18px 25px -9px rgba(0, 0, 0, 0.25);
+  color: wheat;
+  font-weight: 400; }
+  .button-close :hover {
+    background-color: #9f54c2; }
+  @media only screen and (max-width: 600px) {
+    .button-close {
+      border-radius: 20px;
+      width: 30%; } }
+
+.button-close:hover {
   background-color: #9f54c2; }
+
+.mainDiv div .modal-container {
+  display: flex;
+  position: fixed;
+  background-color: rgba(104, 99, 91, 0.63);
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw; }
+
+.show {
+  pointer-events: auto !important;
+  opacity: 1 !important; }
+
+#modal {
+  background-color: wheat;
+  width: 40%;
+  height: 60%;
+  border-radius: 10px;
+  padding: 30px 50px; }
+
+.mainDivLogin {
+  width: 85%;
+  margin: auto;
+  margin-top: 3rem;
+  height: 100%; }
+  .mainDivLogin div {
+    height: 80%;
+    position: relative;
+    display: inline-block; }
+
+#formLogin {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px; }
+
+.formLogin {
+  display: flex;
+  width: 60%;
+  background-color: #e9d5e9;
+  box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 0px 0px 10px;
+  float: left; }
+  @media only screen and (max-width: 600px) {
+    .formLogin {
+      margin-top: 5px;
+      border-radius: 10px 10px 10px 10px;
+      float: none; } }
+
+@media only screen and (max-width: 600px) {
+  #formLogin {
+    width: 100%; } }
+@media only screen and (min-width: 1100px) {
+  .formLogin {
+    animation-duration: 1.3s;
+    animation-name: slideinFormLogin; } }
+
+@keyframes slideinFormLogin {
+  from {
+    margin-left: 80%;
+    width: 60%; }
+  to {
+    margin-right: 0%;
+    width: 60%; } }
+.registerImageLogin {
+  width: 40%;
+  background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg");
+  background-size: cover;
+  box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
+  float: right;
+  border-radius: 0px 10px 10px 0px;
+  transition: translate(-67%); }
+  @media only screen and (max-width: 600px) {
+    .registerImageLogin {
+      width: 0%;
+      display: none;
+      visibility: hidden; } }
+
+@media only screen and (max-width: 600px) {
+  #registerImageLogin {
+    width: 0%;
+    display: none; } }
+@media only screen and (min-width: 1100px) {
+  .registerImageLogin {
+    animation-duration: 1.3s;
+    animation-name: slideinImageLogin; } }
+
+@keyframes slideinImageLogin {
+  from {
+    margin-right: 90%;
+    width: 40%;
+    margin-top: -45.65%; }
+  to {
+    margin-left: 0%;
+    width: 40%;
+    margin-top: -45.65%; } }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 3%;
+  background-color: #a765f7b7; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex: 1;
+  max-width: 50%;
+  justify-content: space-evenly; }
+
+a {
+  padding: 13px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 1.1rem; }
+
+a:hover {
+  background-color: #9f54c2; }
+
+.menu {
+  border-bottom: #9f54c2 0.2em solid; }
 
 html {
   background: #f2e6f3;
   font-family: "Nunito", sans-serif; }
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 600px) {
     html {
-      background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg"); } }
+      background-image: url("https://i.pinimg.com/564x/af/39/26/af3926d2d683e784aefe301486c48af6.jpg");
+      background-size: cover; } }
 
 html,
 body,
